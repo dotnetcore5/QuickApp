@@ -10,6 +10,10 @@
     "Products": "Products",
     "Orders": "Orders",
     "About": "About",
+    "Welcome": "Welcome",
+    "Service": "Service",
+    "Contact": "Contact",
+    "Dashboard": "Dashboard",
     "Logout": "Logout"
   },
   "pageHeader": {
@@ -18,6 +22,9 @@
     "Products": "Products",
     "Orders": "Orders",
     "NotFound": "Not-Found",
+    "Contact": "Contact",
+    "Service": "Service",
+    "Welcome": "Welcome",
     "About": "About",
     "Settings": "Settings"
   },

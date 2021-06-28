@@ -62,6 +62,10 @@ import { UserPreferencesComponent } from './components/controls/user-preferences
 import { UsersManagementComponent } from './components/controls/users-management.component';
 import { RolesManagementComponent } from './components/controls/roles-management.component';
 import { RoleEditorComponent } from './components/controls/role-editor.component';
+import { DashboardComponent } from './components/dashboard/dashboard.component';
+import { WelcomeComponent } from './components/welcome/welcome.component';
+import { ServicesComponent } from './components/services/services.component';
+import { ContactComponent } from './components/contact/contact.component';
 
 
 @NgModule({
@@ -108,7 +112,11 @@ import { RoleEditorComponent } from './components/controls/role-editor.component
     AutofocusDirective,
     BootstrapTabDirective,
     BootstrapToggleDirective,
-    GroupByPipe
+    GroupByPipe,
+    DashboardComponent,
+    WelcomeComponent,
+    ServicesComponent,
+    ContactComponent
   ],
   providers: [
     { provide: ErrorHandler, useClass: AppErrorHandler },

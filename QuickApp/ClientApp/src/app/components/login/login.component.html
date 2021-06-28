@@ -17,7 +17,7 @@
               <label class="col-form-label col-md-3" for="login-username">Username:</label>
               <div class="col-md-9">
                 <input type="text" id="login-username" name="username" placeholder="Enter username" autocomplete="username" class="form-control" [ngClass]="{'is-valid': f.submitted && username.valid, 'is-invalid' : f.submitted && !username.valid}"
-                       [(ngModel)]="userLogin.userName" #username="ngModel" required />
+                       [(ngModel)]="userLogin.userName" #username="ngModel" required value="admin" />
                 <span class="invalid-feedback" *ngIf="f.submitted && !username.valid">
                   Username is required
                 </span>
@@ -27,7 +27,7 @@
               <label class="col-form-label col-md-3" for="login-password">Password:</label>
               <div class="col-md-9">
                 <input type="password" id="login-password" name="password" placeholder="Enter password" autocomplete="current-password" class="form-control" [ngClass]="{'is-valid': f.submitted && password.valid, 'is-invalid' : f.submitted && !password.valid}"
-                       [(ngModel)]="userLogin.password" #password="ngModel" required />
+                       [(ngModel)]="userLogin.password" #password="ngModel" required value="tempP@ss123" />
                 <span class="invalid-feedback" *ngIf="f.submitted && !password.valid">
                   Password is required
                 </span>
